@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.example.app.main"
+    },
+    {
+      "uri":"home",
+      "pkg":"com.example.app.home"
+    },
+    {
+      "uri":"mvp",
+      "pkg":"com.example.app.mvp"
+    }
+  ]
+}
