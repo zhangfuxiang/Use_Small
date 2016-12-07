@@ -12,6 +12,14 @@
     {
       "uri":"mvp",
       "pkg":"com.example.app.mvp"
+    },
+    {
+      "uri":"image",
+      "pkg":"com.example.app.image"
+    },
+    {
+      "uri": "lib.glide",
+      "pkg": "com.example.lib.gilde"
     }
   ]
 }

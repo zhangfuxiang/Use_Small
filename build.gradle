@@ -6,8 +6,11 @@ buildscript {
         jcenter()
     }
     dependencies {
+        //添加gradle的build依赖
         classpath 'com.android.tools.build:gradle:2.2.2'
+        //添加代码注入依赖
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        //添加small插件化库依赖
         classpath 'net.wequick.tools.build:gradle-small:1.1.0-beta3'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -53,7 +56,7 @@ small {
 
     // Whether build all the bundles to host assets.
 
-    buildToAssets = true
+    buildToAssets = false
 
 
 

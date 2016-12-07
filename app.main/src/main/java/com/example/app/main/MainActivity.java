@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    @OnClick({R.id.btn_home, R.id.btn_mvp, R.id.btn_next})
+    @OnClick({R.id.btn_home, R.id.btn_mvp, R.id.btn_next,R.id.btn_image_load})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_home:
@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_next:
                 Small.openUri("test", this);
                 break;
+            case R.id.btn_image_load:
+                Small.openUri("image",this);
         }
     }
 }
